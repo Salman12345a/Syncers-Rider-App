@@ -1,0 +1,26 @@
+my-syncers-app/
+├── src/
+│   ├── api/
+│   │   └── orderApi.ts           # API calls for orders
+│   ├── components/
+│   │   ├── DrawerContent.tsx     # Custom drawer content
+│   │   ├── OrderCard.tsx         # Order card component
+│   │   └── ToggleSwitch.tsx      # Availability toggle
+│   ├── navigation/
+│   │   └── AppNavigator.tsx      # Main navigation setup
+│   ├── screens/
+│   │   ├── DashboardScreen.tsx   # Active orders list
+│   │   ├── EarningsScreen.tsx    # Earnings placeholder
+│   │   ├── HelpScreen.tsx        # Help placeholder
+│   │   ├── LoginScreen.tsx       # Login screen
+│   │   ├── OrderDetailsScreen.tsx # Order details and status updates
+│   │   └── OrdersDeliveredScreen.tsx # Delivered orders list
+│   ├── utils/
+│   │   ├── auth.ts               # Authentication utilities
+│   │   └── constants.ts          # App-wide constants
+│   └── types.ts                  # TypeScript type definitions
+├── App.tsx                       # App entry point with Socket.IO
+├── package.json                  # Project dependencies
+├── tsconfig.json                 # TypeScript configuration
+├── babel.config.js               # Babel configuration
+└── metro.config.js               # Metro bundler configuration
